@@ -1,5 +1,3 @@
-# brasileirao_etl.py (dentro da pasta /dags do Airflow)
-
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
