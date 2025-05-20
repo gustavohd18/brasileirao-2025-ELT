@@ -1,0 +1,31 @@
+[2025-05-20T03:06:19.797+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-20T03:06:19.827+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: brasileirao_etl.load_to_s3 manual__2025-05-20T03:04:08.670434+00:00 [queued]>
+[2025-05-20T03:06:19.840+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: brasileirao_etl.load_to_s3 manual__2025-05-20T03:04:08.670434+00:00 [queued]>
+[2025-05-20T03:06:19.840+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2025-05-20T03:06:19.868+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load_to_s3> on 2025-05-20 03:04:08.670434+00:00
+[2025-05-20T03:06:19.904+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'brasileirao_etl', 'load_to_s3', 'manual__2025-05-20T03:04:08.670434+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/brasileirao_etl.py', '--cfg-path', '/tmp/tmp0yc4cefs']
+[2025-05-20T03:06:19.907+0000] {standard_task_runner.py:105} INFO - Job 10: Subtask load_to_s3
+[2025-05-20T03:06:19.901+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=235) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-20T03:06:19.910+0000] {standard_task_runner.py:72} INFO - Started process 244 to run task
+[2025-05-20T03:06:20.046+0000] {task_command.py:467} INFO - Running <TaskInstance: brasileirao_etl.load_to_s3 manual__2025-05-20T03:04:08.670434+00:00 [running]> on host ffbc9806be57
+[2025-05-20T03:06:20.647+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gustavo' AIRFLOW_CTX_DAG_ID='brasileirao_etl' AIRFLOW_CTX_TASK_ID='load_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2025-05-20T03:04:08.670434+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-20T03:04:08.670434+00:00'
+[2025-05-20T03:06:20.652+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-20T03:06:20.654+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-20T03:06:20.655+0000] {logging_mixin.py:190} INFO - Current task name:load_to_s3 state:running start_date:2025-05-20 03:06:19.828274+00:00
+[2025-05-20T03:06:20.664+0000] {logging_mixin.py:190} INFO - Dag name:brasileirao_etl and current dag run status:running
+[2025-05-20T03:06:20.668+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-20T03:06:20.774+0000] {base.py:84} INFO - Retrieving connection 'aws_default'
+[2025-05-20T03:06:20.777+0000] {connection_wrapper.py:388} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2025-05-20T03:06:22.950+0000] {logging_mixin.py:190} INFO - Enviado para s3://brasileirao-2025/rodadas/semana-8/rodada_8.csv
+[2025-05-20T03:06:22.957+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-20T03:06:23.009+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-20T03:06:23.010+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=brasileirao_etl, task_id=load_to_s3, run_id=manual__2025-05-20T03:04:08.670434+00:00, execution_date=20250520T030408, start_date=20250520T030619, end_date=20250520T030623
+[2025-05-20T03:06:23.072+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-05-20T03:06:23.073+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-05-20T03:06:23.073+0000] {logging_mixin.py:190} INFO - Dag name:brasileirao_etl queued_at:2025-05-20 03:04:08.728736+00:00
+[2025-05-20T03:06:23.077+0000] {logging_mixin.py:190} INFO - Task hostname:ffbc9806be57 operator:PythonOperator
+[2025-05-20T03:06:23.142+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-20T03:06:23.222+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-20T03:06:23.235+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
