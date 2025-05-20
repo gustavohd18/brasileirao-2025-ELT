@@ -328,3 +328,73 @@
 [2025-05-20T03:15:50.641+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:15:50.640+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2025-05-20T03:15:50.664+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:15:50.664+0000] {dag.py:4156} INFO - Setting next_dagrun for brasileirao_etl to None, run_after=None
 [2025-05-20T03:15:50.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brasileirao_etl.py took 0.845 seconds
+[2025-05-20T03:16:21.606+0000] {processor.py:186} INFO - Started process (PID=2834) to work on /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:16:21.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brasileirao_etl.py for tasks to queue
+[2025-05-20T03:16:21.617+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:16:21.617+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:16:22.168+0000] {processor.py:925} INFO - DAG(s) 'brasileirao_etl' retrieved from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:16:22.208+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:16:22.207+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-20T03:16:22.219+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:16:22.219+0000] {dag.py:4156} INFO - Setting next_dagrun for brasileirao_etl to None, run_after=None
+[2025-05-20T03:16:22.256+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brasileirao_etl.py took 0.654 seconds
+[2025-05-20T03:16:52.828+0000] {processor.py:186} INFO - Started process (PID=2897) to work on /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:16:52.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brasileirao_etl.py for tasks to queue
+[2025-05-20T03:16:52.858+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:16:52.857+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:16:53.628+0000] {processor.py:925} INFO - DAG(s) 'brasileirao_etl' retrieved from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:16:53.699+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:16:53.698+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-20T03:16:53.735+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:16:53.733+0000] {dag.py:4156} INFO - Setting next_dagrun for brasileirao_etl to None, run_after=None
+[2025-05-20T03:16:53.803+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brasileirao_etl.py took 1.010 seconds
+[2025-05-20T03:17:24.454+0000] {processor.py:186} INFO - Started process (PID=2960) to work on /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:17:24.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brasileirao_etl.py for tasks to queue
+[2025-05-20T03:17:24.467+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:17:24.465+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:17:24.879+0000] {processor.py:925} INFO - DAG(s) 'brasileirao_etl' retrieved from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:17:24.909+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:17:24.908+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-20T03:17:24.948+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:17:24.946+0000] {dag.py:4156} INFO - Setting next_dagrun for brasileirao_etl to None, run_after=None
+[2025-05-20T03:17:25.051+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brasileirao_etl.py took 0.602 seconds
+[2025-05-20T03:17:55.407+0000] {processor.py:186} INFO - Started process (PID=3023) to work on /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:17:55.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brasileirao_etl.py for tasks to queue
+[2025-05-20T03:17:55.416+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:17:55.416+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:17:55.791+0000] {processor.py:925} INFO - DAG(s) 'brasileirao_etl' retrieved from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:17:55.821+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:17:55.821+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-20T03:17:55.850+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:17:55.850+0000] {dag.py:4156} INFO - Setting next_dagrun for brasileirao_etl to None, run_after=None
+[2025-05-20T03:17:55.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brasileirao_etl.py took 0.483 seconds
+[2025-05-20T03:18:26.556+0000] {processor.py:186} INFO - Started process (PID=3075) to work on /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:18:26.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brasileirao_etl.py for tasks to queue
+[2025-05-20T03:18:26.560+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:18:26.560+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:18:27.006+0000] {processor.py:925} INFO - DAG(s) 'brasileirao_etl' retrieved from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:18:27.081+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:18:27.079+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-20T03:18:27.119+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:18:27.118+0000] {dag.py:4156} INFO - Setting next_dagrun for brasileirao_etl to None, run_after=None
+[2025-05-20T03:18:27.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brasileirao_etl.py took 0.617 seconds
+[2025-05-20T03:18:57.492+0000] {processor.py:186} INFO - Started process (PID=3138) to work on /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:18:57.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brasileirao_etl.py for tasks to queue
+[2025-05-20T03:18:57.507+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:18:57.505+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:18:57.914+0000] {processor.py:925} INFO - DAG(s) 'brasileirao_etl' retrieved from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:18:57.954+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:18:57.953+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-20T03:18:57.993+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:18:57.991+0000] {dag.py:4156} INFO - Setting next_dagrun for brasileirao_etl to None, run_after=None
+[2025-05-20T03:18:58.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brasileirao_etl.py took 0.545 seconds
+[2025-05-20T03:19:28.383+0000] {processor.py:186} INFO - Started process (PID=3199) to work on /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:19:28.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brasileirao_etl.py for tasks to queue
+[2025-05-20T03:19:28.388+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:19:28.387+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:19:28.782+0000] {processor.py:925} INFO - DAG(s) 'brasileirao_etl' retrieved from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:19:28.840+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:19:28.838+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-20T03:19:28.915+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:19:28.915+0000] {dag.py:4156} INFO - Setting next_dagrun for brasileirao_etl to None, run_after=None
+[2025-05-20T03:19:29.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brasileirao_etl.py took 0.632 seconds
+[2025-05-20T03:19:59.152+0000] {processor.py:186} INFO - Started process (PID=3261) to work on /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:19:59.154+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brasileirao_etl.py for tasks to queue
+[2025-05-20T03:19:59.157+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:19:59.157+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:19:59.320+0000] {processor.py:925} INFO - DAG(s) 'brasileirao_etl' retrieved from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:19:59.390+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:19:59.386+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-20T03:19:59.432+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:19:59.432+0000] {dag.py:4156} INFO - Setting next_dagrun for brasileirao_etl to None, run_after=None
+[2025-05-20T03:19:59.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brasileirao_etl.py took 0.330 seconds
+[2025-05-20T03:20:29.980+0000] {processor.py:186} INFO - Started process (PID=3329) to work on /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:20:29.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brasileirao_etl.py for tasks to queue
+[2025-05-20T03:20:29.991+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:20:29.990+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:20:30.276+0000] {processor.py:925} INFO - DAG(s) 'brasileirao_etl' retrieved from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:20:30.309+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:20:30.308+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-20T03:20:30.349+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:20:30.348+0000] {dag.py:4156} INFO - Setting next_dagrun for brasileirao_etl to None, run_after=None
+[2025-05-20T03:20:30.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brasileirao_etl.py took 0.427 seconds
+[2025-05-20T03:21:01.407+0000] {processor.py:186} INFO - Started process (PID=3392) to work on /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:21:01.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brasileirao_etl.py for tasks to queue
+[2025-05-20T03:21:01.420+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:21:01.417+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:21:01.623+0000] {processor.py:925} INFO - DAG(s) 'brasileirao_etl' retrieved from /opt/airflow/dags/brasileirao_etl.py
+[2025-05-20T03:21:01.662+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:21:01.661+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-20T03:21:01.705+0000] {logging_mixin.py:190} INFO - [2025-05-20T03:21:01.703+0000] {dag.py:4156} INFO - Setting next_dagrun for brasileirao_etl to None, run_after=None
+[2025-05-20T03:21:01.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brasileirao_etl.py took 0.339 seconds
